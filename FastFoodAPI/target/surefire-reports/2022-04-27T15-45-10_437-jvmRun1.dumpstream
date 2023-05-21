@@ -1,0 +1,61 @@
+# Created at 2022-04-27T15:45:12.082
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:396)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+# Created at 2022-04-27T15:45:13.066
+Unexpected IOException with stream: 2022-04-27 15:45:13.065  INFO 17520 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+
+
+# Created at 2022-04-27T15:45:13.160
+Unexpected IOException with stream: 2022-04-27 15:45:13.160  INFO 17520 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+
+
+# Created at 2022-04-27T15:45:13.782
+Unexpected IOException with stream: 2022-04-27 15:45:13.782  INFO 17520 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+
+
+# Created at 2022-04-27T15:45:14.162
+Unexpected IOException with stream: 2022-04-27 15:45:14.160  INFO 17520 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+
+
+# Created at 2022-04-27T15:45:14.607
+Unexpected IOException with stream: 2022-04-27 15:45:14.607  INFO 17520 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+
+
+# Created at 2022-04-27T15:45:14.633
+Unexpected IOException with stream: 2022-04-27 15:45:14.633  INFO 17520 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+
+
+# Created at 2022-04-27T15:45:15.472
+Unexpected IOException with stream: 2022-04-27 15:45:15.471  INFO 17520 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+
+# Created at 2022-04-27T15:45:15.479
+Unexpected IOException with stream: 2022-04-27 15:45:15.479  INFO 17520 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2022-04-27T15:45:16.647
+Unexpected IOException with stream: 2022-04-27 15:45:16.646  WARN 17520 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+
+# Created at 2022-04-27T15:45:17.399
+Unexpected IOException with stream: 2022-04-27 15:45:17.399  INFO 17520 --- [           main] d.f.FastFoodApiApplicationTests          : Started FastFoodApiApplicationTests in 6.011 seconds (JVM running for 6.772)
+
+
+# Created at 2022-04-27T15:45:17.417
+Unexpected IOException: 5,1,dev.fastfoodapi.FastFoodApiApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2022-04-27T15:45:17.602
+Unexpected IOException: 6,1,dev.fastfoodapi.FastFoodApiApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2022-04-27T15:45:17.604
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,dev.fastfoodapi.FastFoodApiApplicationTests,null,null,null
+
+

@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-WebServiceClientApplication<WebService_Client>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "dev.webservice_client.WebServiceClientApplication",
+            "projectName": "WebService_Client",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=50437 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=WebService_Client"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-WebServiceAdminApplication<WebService_Admin>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "dev.webservice_admin.WebServiceAdminApplication",
+            "projectName": "WebService_Admin",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=50208 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=WebService_Admin"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-FastFoodApiApplication<FastFoodAPI>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "dev.fastfoodapi.FastFoodApiApplication",
+            "projectName": "FastFoodAPI",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-WebServiceAdminApplication<WebService_Admin (2)>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "dev.webservice_admin.WebServiceAdminApplication",
+            "projectName": "WebService_Admin (2)",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
